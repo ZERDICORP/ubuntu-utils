@@ -9,6 +9,6 @@ echo "deb [signed-by=/etc/apt/keyrings/grafana.gpg] https://apt.grafana.com beta
 
 sudo apt-get update
 
-sudo apt-get install grafana
+sudo apt-get install grafana -y
 
 sudo systemctl start grafana-server.service
